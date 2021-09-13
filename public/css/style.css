@@ -50,7 +50,7 @@ body {
     padding: 5px;
     border: 1px solid #eaf738;
     background:linear-gradient(to right, rgba(247, 236, 248, 0.863), rgb(241, 239, 63));
-    color: #fff;
+    color: rgb(19, 18, 18);
     border-radius: 10px;
     margin: 0 auto;
 }
@@ -83,9 +83,9 @@ body {
     font-size: 25px;
     font-weight: 800;
 }
-.main-container .weather-icon i{
-    font-size: 30px;
-    font-weight: 800;
+.main-container .weather-icon img{
+    width: 100px;
+    height: 100px;
     animation: iconanimation 3s infinite;
 }
 @keyframes iconanimation {
