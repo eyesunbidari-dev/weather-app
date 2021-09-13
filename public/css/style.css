@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "BYekan";
+    src: url("../fonts/BYekan-webfont.eot") format("eot"),
+        url("../fonts/BYekan-webfont.woff") format("woff"),
+        url("../fonts/BYekan-webfont.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    font-family: "BYekan" !important;
+    direction: rtl;
+    background: linear-gradient(to right, rgba(248, 234, 109, 0.863), rgb(231, 148, 224));
+    background-size: cover;
+}
+
+/* start style */
+.App{
+    text-align: center;
+}
+.card{
+    position: relative;
+    width: 70%;
+    height: 70%;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 1%;
+    background: linear-gradient(to right, rgba(226, 252, 110, 0.863), rgb(125, 80, 155));
+    background-size: cover;
+    box-shadow: 5px 5px 5px 1px #fff;
+    padding: 20px;
+}
+.title {
+    color: #fff;
+    font-weight: 800;
+    font-size: 30px;
+}
+.search-form{
+    font-family: "BYekan" !important;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search-form input{
+    font-family: "BYekan" !important;
+    width: 90%;
+    height: 40px;
+    padding: 5px;
+    border: 1px solid #eaf738;
+    background:linear-gradient(to right, rgba(247, 236, 248, 0.863), rgb(241, 239, 63));
+    color: #fff;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.search-form button{
+    font-family: "BYekan" !important;
+    width: 8%;
+    height: 50px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px !important;
+    background: linear-gradient(to right, rgba(226, 252, 110, 0.863), rgb(125, 80, 155));
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+}
+.search-form button:hover{
+    background: linear-gradient(to right, rgba(247, 236, 248, 0.863), rgb(192, 37, 206));
+    color: black;
+}
