@@ -34,7 +34,7 @@ const App = () => {
            placeholder="نام شهر و لاتین تایپ کن دوست من"/>
         </div>
         {weatherdata !== null ? (<div className="main-container">
-            <h4> آب و هوای زنده</h4>
+            <h4> آب و هوای این لحظه</h4>
             <div className="weather-icon">
                 <img src={`http://openweathermap.org/img/w/${weatherdata.weather[0].icon}.png`} alt="imgicon"/>
             </div>
